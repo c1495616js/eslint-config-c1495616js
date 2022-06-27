@@ -13,7 +13,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --fix",
     "preversion": "",
-    "version": "git add -A . && git commit -m 'update version'",
+    "version": "npm version patch",
     "postversion": "git push && git push --tags"
   },
   "author": "Jerry Wang <c1495616@gmail.com> (https://github.com/c1495616js/eslint-config-jerrywang)",

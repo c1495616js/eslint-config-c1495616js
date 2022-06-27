@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --fix",
-    "publish": "npm version patch -m 'Upgrade to %s'",
+    "pub": "npm version patch -m 'Upgrade to %s'",
     "postversion": "git push && git push --tags"
   },
   "author": "Jerry Wang <c1495616@gmail.com> (https://github.com/c1495616js/eslint-config-jerrywang)",

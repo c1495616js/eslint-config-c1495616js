@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-c1495616js",
+  "name": "eslint-config-jerrywang",
   "version": "1.0.0",
   "description": "ESLint + Prettier config",
   "main": "index.js",
@@ -28,12 +28,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c1495616js/eslint-config-c1495616js.git"
+    "url": "git+https://github.com/c1495616js/eslint-config-jerrywang.git"
   },
   "bugs": {
-    "url": "https://github.com/c1495616js/eslint-config-c1495616js/issues"
+    "url": "https://github.com/c1495616js/eslint-config-jerrywang/issues"
   },
-  "homepage": "https://github.com/c1495616js/eslint-config-c1495616js#readme",
+  "homepage": "https://github.com/c1495616js/eslint-config-jerrywang#readme",
   "peerDependencies": {
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",

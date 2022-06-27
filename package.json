@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jerrywang",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint + Prettier config",
   "main": "index.js",
   "files": [
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
-    "lint:fix": "eslint --fix",    
+    "lint:fix": "eslint --fix",
     "publish": "npm version patch -m 'Upgrade to %s'",
     "postversion": "git push && git push --tags"
   },

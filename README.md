@@ -15,7 +15,7 @@ The goal of this configuration is to get code linting and formatting up and runn
 To install the package, run:
 
 ```shell
-$ npm install -D eslint-config-c1495616js
+$ npm install -D eslint-config-jerrywang
 ```
 
 This will install the shared config, as well as its peer dependencies:
@@ -36,18 +36,18 @@ This will install the shared config, as well as its peer dependencies:
 **NOTE:** if you are on NPM <7, you will need to install these manually:
 
 ```shell
-$ npx install-peerdeps -D eslint-config-c1495616js
+$ npx install-peerdeps -D eslint-config-jerrywang
 ```
 
 ## Usage
 
-To start using this shared config, add `eslint-config-c1495616js` (or just `c1495616js`) to either your `package.json`:
+To start using this shared config, add `eslint-config-jerrywang` (or just `jerrywang`) to either your `package.json`:
 
 ```jsx
 // package.json
 {
   "eslintConfig": {
-    "extends": ["c1495616js"]
+    "extends": ["jerrywang"]
   }
 }
 ```
@@ -57,7 +57,7 @@ or the `.eslintrc` file:
 ```jsx
 // .eslintrc
 {
-  "extends": ["c1495616js"]
+  "extends": ["jerrywang"]
 }
 ```
 
@@ -95,7 +95,7 @@ This can also be overriden in your local `.eslintrc` file, if needed:
 ```jsx
 // .eslintrc
 {
-  "extends": ["c1495616js"],
+  "extends": ["jerrywang"],
   "settings": {
     "import/resolver": {
       "alias": {
@@ -116,7 +116,7 @@ If you wish to override any [Prettier options](https://prettier.io/docs/en/optio
 ```jsx
 // .eslintrc
 {
-  "extends": ["c1495616js"],
+  "extends": ["jerrywang"],
   "rules": {
     "prettier/prettier": [
       "error",

@@ -1,0 +1,52 @@
+{
+  "name": "eslint-config-c1495616js",
+  "version": "1.0.0",
+  "description": "ESLint + Prettier config",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix"
+  },
+  "author": "Jerry Wang",
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "lint",
+    "nextjs",
+    "prettier",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1495616js/eslint-config-c1495616js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/c1495616js/eslint-config-c1495616js/issues"
+  },
+  "homepage": "https://github.com/c1495616js/eslint-config-c1495616js#readme",
+  "peerDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-tailwindcss": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "prettier": "^2.7.1"
+  }
+}

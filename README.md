@@ -162,6 +162,12 @@ All credits to
 - [Youtube Video](https://www.youtube.com/watch?v=tsPXN4mJGSc)
 - [Github](https://github.com/mryechkin/eslint-config-acme)
 
+## Deployment with Github Action
+
+- [add secret](https://stackoverflow.com/questions/70631423/github-action-for-npm-publish-fails)
+
+- Click `tag` on Github, and create new release, then the action will run.
+
 ## License
 
 Licensed under MIT License.

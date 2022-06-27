@@ -168,6 +168,14 @@ All credits to
 
 - Click `tag` on Github, and create new release, then the action will run.
 
+OR
+
+### Steps
+
+- made new changes and commit and push.
+- `npm run pub` will patch new npm version and push new tag.
+- at `tag` page, find the tag you are going to publish and create new release from there.
+
 ## License
 
 Licensed under MIT License.

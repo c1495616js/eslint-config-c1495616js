@@ -16,6 +16,7 @@ module.exports = {
             jsx: true,
         }
     },
+    plugins: ['simple-import-sort', 'import', 'tailwindcss'],
     // override the default
     rules: lib,
     settings: {
